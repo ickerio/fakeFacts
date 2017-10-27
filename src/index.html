@@ -2,9 +2,10 @@
 <html>
     <head>
         <script src="https://unpkg.com/vue"></script>
+        <script src="getfact.js"></script>
         <script src="script.js"></script>
         <style>
-            .center p {
+            .center {
                 margin: 0;
                 position: absolute;
                 top: 50%;
@@ -21,7 +22,8 @@
     </head>
     <body>
         <div id="fact" class="center" v-on:click="newFact">
-            <p>My random fact is {{ fact }}.</p>
+            <h1>Did you know?</h3>
+            <p>{{ fact }}.</p>
         </div>
         <script src="script.js"></script>
     </body>

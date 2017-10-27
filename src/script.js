@@ -2,11 +2,11 @@ window.onload = () => {
     const fact = new Vue({
         el: '#fact',
         data: {
-            fact: 'no fact yet'
+            fact: getFact()
         },
         methods: {
             newFact: function() {
-                this.fact = Math.random().toString(36).substring(7);
+                this.fact = getFact()
             }
         }
     });
