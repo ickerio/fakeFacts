@@ -1,0 +1,27 @@
+{
+  "name": "fakefacts",
+  "version": "1.0.0",
+  "description": "A simple website for fake facts made in one night",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ickerio/fakeFacts.git"
+  },
+  "keywords": [
+    "fake",
+    "facts",
+    "website"
+  ],
+  "author": "ickerio & printlnHi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ickerio/fakeFacts/issues"
+  },
+  "homepage": "https://github.com/ickerio/fakeFacts#readme",
+  "dependencies": {
+    "sqlite": "^2.8.0"
+  }
+}
