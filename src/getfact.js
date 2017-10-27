@@ -17,21 +17,18 @@ const lists = {
 
 };
 
-function getRandLessThen(x){
-  return Math.floor(Math.random() * x)
+function rand(max) {
+  return Math.floor(Math.random() * max)
 }
-function getFact(){
 
 
+function getFact() {
+  const template = templates[rand(templates.length)];
 
-  const template = templates[getRandLessThen(templates.length)];
+  template.replacementClasses.forEach(r => {
+    const replacement = lists[r][rand(lists[r].length)];
+    template.text = template.text.replace("$"/*  */, replacement);
+  });
 
-  let string = template.text;
-  for (replacementClass in template.replacementClasses){
-    const list = lists[template.replacementClasses[replacementClass]];
-    const replacement = list[getRandLessThen(list.length)];
-    string = string.replace("$",replacement);
-  }
-
-  return string;
+  return template.text;
 }
