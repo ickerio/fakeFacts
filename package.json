@@ -21,7 +21,5 @@
     "url": "https://github.com/ickerio/fakeFacts/issues"
   },
   "homepage": "https://github.com/ickerio/fakeFacts#readme",
-  "dependencies": {
-    "sqlite": "^2.8.0"
-  }
+  "dependencies": {}
 }
