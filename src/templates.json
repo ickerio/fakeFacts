@@ -1,4 +1,6 @@
 {
-    "formats": []
-
+    "formats": [
+      {"text": "A $ and a $ are actually the same animal!", "replacementClass":["animal","animal"]}
+      {"text": "$ and $ are actually the same county!", "replacementClass":["country","country"]}
+    ]
 }
