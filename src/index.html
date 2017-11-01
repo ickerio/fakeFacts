@@ -5,12 +5,15 @@
         <script src="getfact.js"></script>
         <script src="script.js"></script>
         <style>
-            .center {
+            #fact {
                 margin: 0;
                 position: absolute;
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
+            }
+            h1 {
+                text-align: center;
             }
 
             html {
@@ -21,7 +24,7 @@
         </style>
     </head>
     <body>
-        <div id="fact" class="center" v-on:click="newFact">
+        <div id="fact" v-on:click="newFact">
             <h1>Did you know?</h3>
             <p>{{ fact }}.</p>
         </div>
