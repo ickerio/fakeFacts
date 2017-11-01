@@ -1,6 +1,6 @@
 const templates = [
       {'text': 'A $ and a $ are actually the same animal!', 'replacementClasses':['animal','animal']},
-      {'text': '$ and $ are actually the same county!', 'replacementClasses':['country','country']},
+      {'text': '$ and $ are actually the same country!', 'replacementClasses':['country','country']},
       {'text': '$\'s cannot see the colour $', 'replacementClasses':['animal','colour']},
       {'text': '$ has the greatest $ of any country','replacementClasses':['country','nationalMetric']},
       {'text': 'Despite once being native, the $ is no longer found in $', 'replacementClasses':['animal','country']},
