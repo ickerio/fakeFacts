@@ -17,7 +17,7 @@ const lists = {
 };
 
 function rand(max) {
-  return Math.floor(Math.random() * max)
+  return (Math.floor(Math.random() * max) * 71)%max
 }
 
 
