@@ -1,19 +1,10 @@
 const templates = [
-<<<<<<< HEAD
-      {'text': 'A $ and a $ are actually the same animal!', 'replacementClasses':['animal','animal']},
-      {'text': '$ and $ are actually the same country!', 'replacementClasses':['country','country']},
-      {'text': '$\'s cannot see the colour $', 'replacementClasses':['animal','colour']},
-      {'text': '$ has the greatest $ of any country','replacementClasses':['country','nationalMetric']},
-      {'text': 'Despite once being native, the $ is no longer found in $', 'replacementClasses':['animal','country']},
-      {'text': 'Once you adjust for $, $ has the highest consumption of $ in the world','replacementClasses':['nationalMetric','country','food']}
-=======
       {text: 'A $ and a $ are actually the same animal!', replacementClasses: ['animal', 'animal']},
       {text: '$ and $ are actually the same county!', replacementClasses: ['country', 'country']},
       {text: '$\'s cannot see the colour $', replacementClasses: ['animal', 'colour']},
       {text: '$ has the greatest $ of any country', replacementClasses: ['country', 'nationalMetric']},
       {text: 'Despite once being native, the $ is no longer found in $', replacementClasses: ['animal', 'country']},
       {text: 'Once you adjust for $, $ has the highest consumption of $ in the world',replacementClasses: ['nationalMetric', 'country', 'food']}
->>>>>>> 2e96cb91eaf8631672c12f426fc8dea204235cde
 ];
 
 const lists = {
